@@ -1,5 +1,4 @@
 {
-  "$schema": "./source/schema.json",
   "family_name": "Maple Mono",
   "use_hinted": true,
   "pool_size": 4,
@@ -49,7 +48,7 @@
     "ss09": "ignore",
     "ss10": "ignore",
     "ss11": "ignore",
-    "zero": "ignore"
+    "zero": "enable"
   },
   "nerd_font": {
     "enable": true,
@@ -63,7 +62,7 @@
     "extra_args": []
   },
   "cn": {
-    "enable": false,
+    "enable": true,
     "with_nerd_font": true,
     "fix_meta_table": true,
     "clean_cache": false,
